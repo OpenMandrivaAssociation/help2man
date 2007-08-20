@@ -6,8 +6,8 @@ Group:          Development/Other
 License:        GPL
 URL:            http://www.gnu.org/software/help2man/
 Source0:        ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.bz2
-Requires(post): /sbin/install-info
-Requires(preun): /sbin/install-info
+Requires(post): info-install
+Requires(preun): info-install
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 
