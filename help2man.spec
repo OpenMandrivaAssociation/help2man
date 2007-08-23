@@ -1,6 +1,6 @@
 Name:           help2man
 Version:        1.36.4
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        Create simple man pages from --help output
 Group:          Development/Other
 License:        GPL
