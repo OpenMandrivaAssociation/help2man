@@ -1,11 +1,11 @@
 Name:           help2man
-Version:        1.36.4
-Release:        %mkrel 7
+Version:        1.37.1
+Release:        %mkrel 1
 Summary:        Create simple man pages from --help output
 Group:          Development/Other
-License:        GPL
+License:        GPLv3
 URL:            http://www.gnu.org/software/help2man/
-Source0:        ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.bz2
+Source0:        ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.gz
 Requires(post): info-install
 Requires(preun): info-install
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
@@ -23,7 +23,7 @@ providing some useful information.
 %setup -q
 
 %build
-%configure2_5x --disable-nls
+%configure --disable-nls
 %make
 
 %install
@@ -41,7 +41,7 @@ providing some useful information.
 
 %files
 %defattr(-, root, root)
-%doc ChangeLog COPYING INSTALL README NEWS THANKS
+%doc debian/changelog COPYING INSTALL README NEWS THANKS
 %{_bindir}/%{name}
 %{_infodir}/%{name}.info*
 %{_mandir}/man1/%{name}.1*
