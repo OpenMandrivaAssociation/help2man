@@ -1,5 +1,5 @@
 Name:           help2man
-Version:        1.37.1
+Version:        1.38.1
 Release:        %mkrel 1
 Summary:        Create simple man pages from --help output
 Group:          Development/Other
