@@ -1,15 +1,15 @@
-Name:           help2man
-Version:        1.40.2
-Release:        %mkrel 1
-Summary:        Create simple man pages from --help output
-Group:          Development/Other
-License:        GPLv3
-URL:            http://www.gnu.org/software/help2man/
-Source0:        ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.gz
-Requires(post): info-install
+Name:		help2man
+Version:	1.40.4
+Release:	%mkrel 1
+Summary:	Create simple man pages from --help output
+Group:		Development/Other
+License:	GPLv3
+URL:		http://www.gnu.org/software/help2man/
+Source0:	ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.gz
+Requires(post):	info-install
 Requires(preun): info-install
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildArch:      noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
+BuildArch:	noarch
 
 %description
 help2man is a script to create simple man pages from the --help and 
@@ -27,11 +27,11 @@ providing some useful information.
 %make
 
 %install
-%{__rm} -rf %{buildroot}
+%__rm -rf %{buildroot}
 %makeinstall
 
 %clean
-%{__rm} -rf %{buildroot}
+%__rm -rf %{buildroot}
 
 %post
 %_install_info %{name}.info
