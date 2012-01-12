@@ -1,6 +1,6 @@
 Name:		help2man
-Version:	1.40.4
-Release:	%mkrel 1
+Version:	1.40.5
+Release:	1
 Summary:	Create simple man pages from --help output
 Group:		Development/Other
 License:	GPLv3
@@ -8,7 +8,6 @@ URL:		http://www.gnu.org/software/help2man/
 Source0:	ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.gz
 Requires(post):	info-install
 Requires(preun): info-install
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 
 %description
@@ -27,11 +26,7 @@ providing some useful information.
 %make
 
 %install
-%__rm -rf %{buildroot}
 %makeinstall
-
-%clean
-%__rm -rf %{buildroot}
 
 %post
 %_install_info %{name}.info
