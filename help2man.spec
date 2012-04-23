@@ -1,5 +1,5 @@
 Name:		help2man
-Version:	1.40.5
+Version:	1.40.9
 Release:	1
 Summary:	Create simple man pages from --help output
 Group:		Development/Other
