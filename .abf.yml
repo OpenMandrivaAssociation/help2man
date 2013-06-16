@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   help2man-1.41.1.tar.gz: 6fc95fa4505b14a243a5ebef58dd5776035c5fef
+sources:
+  help2man-1.43.2.tar.gz: 9bb8270b356d01abd452a8f614006b7da2a42738
