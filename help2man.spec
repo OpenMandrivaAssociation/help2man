@@ -1,7 +1,7 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
 Version:	1.43.3
-Release:	3
+Release:	4
 Group:		Development/Other
 License:	GPLv3
 Url:		http://www.gnu.org/software/help2man/
