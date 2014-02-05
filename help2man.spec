@@ -1,11 +1,11 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
-Version:	1.43.3
-Release:	5
+Version:	1.44.1
+Release:	1
 Group:		Development/Other
 License:	GPLv3
 Url:		http://www.gnu.org/software/help2man/
-Source0:	ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.gz
+Source0:	ftp://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 
 %description
