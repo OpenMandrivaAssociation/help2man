@@ -1,6 +1,6 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
-Version:	1.44.1
+Version:	1.45.1
 Release:	1
 Group:		Development/Other
 License:	GPLv3
