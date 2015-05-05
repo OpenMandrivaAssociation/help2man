@@ -1,9 +1,3 @@
-removed_sources:
-  help2man-1.41.1.tar.gz: 6fc95fa4505b14a243a5ebef58dd5776035c5fef
-  help2man-1.43.2.tar.gz: 9bb8270b356d01abd452a8f614006b7da2a42738
-  help2man-1.43.3.tar.gz: 9b8d037eaa2fcdc36402540221a0c6df8a441dbd
-  help2man-1.44.1.tar.xz: 36171c66941e9c626275c02b465bbdf288b64a61
-  help2man-1.45.1.tar.xz: 9c52a29a1612a19dfec11f3dd9eb4bbf72e87f7f
-  help2man-1.46.2.tar.xz: 7bc89a8ad33255534eadf0356bb6536883e4f64e
+---
 sources:
-  help2man-1.46.4.tar.xz: 7eebb6ead072b19863f28acca051bc3e3c40fdf9
+  help2man-1.46.6.tar.xz: b6da39df27a8026cc4e3b204237e5b8182ec38a2
