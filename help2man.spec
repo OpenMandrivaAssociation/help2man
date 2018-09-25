@@ -1,6 +1,6 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
-Version:	1.47.6
+Version:	1.47.7
 Release:	1
 Group:		Development/Other
 License:	GPLv3
@@ -17,14 +17,14 @@ to generate a placeholder man page pointing to that resource while still
 providing some useful information.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure --disable-nls
-%make
+%make_build
 
 %install
-%makeinstall
+%make_install
 
 %files
 %doc debian/changelog COPYING INSTALL README NEWS THANKS
