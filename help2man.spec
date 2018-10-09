@@ -7,6 +7,7 @@ License:	GPLv3
 Url:		http://www.gnu.org/software/help2man/
 Source0:	ftp://ftp.gnu.org:21/gnu/help2man/%{name}-%{version}.tar.xz
 BuildArch:	noarch
+BuildRequires:	perl-Locale-gettext
 
 %description
 help2man is a script to create simple man pages from the --help and 
