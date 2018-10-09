@@ -26,9 +26,12 @@ providing some useful information.
 
 %install
 %make_install
+%find_lang %{name}
 
-%files
+%files -f %{name}.lang
 %doc debian/changelog COPYING INSTALL README NEWS THANKS
 %{_bindir}/%{name}
+%{_libdir}/%{name}/bindtextdomain.so
 %{_infodir}/%{name}.info*
 %{_mandir}/man1/%{name}.1*
+%{_mandir}/*/man1/%{name}.1*
