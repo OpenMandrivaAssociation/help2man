@@ -1,7 +1,7 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
 Version:	1.47.7
-Release:	1
+Release:	2
 Group:		Development/Other
 License:	GPLv3
 Url:		http://www.gnu.org/software/help2man/
@@ -20,7 +20,7 @@ providing some useful information.
 %autosetup -p1
 
 %build
-%configure --disable-nls
+%configure --enable-nls
 %make_build
 
 %install
