@@ -1,6 +1,6 @@
 Summary:	Create simple man pages from --help output
 Name:		help2man
-Version:	1.48.5
+Version:	1.49.1
 Release:	1
 Group:		Development/Other
 License:	GPLv3
@@ -31,6 +31,6 @@ providing some useful information.
 %doc debian/changelog COPYING INSTALL README NEWS THANKS
 %{_bindir}/%{name}
 %{_libdir}/%{name}/bindtextdomain.so
-%{_infodir}/%{name}*.info*
-%{_mandir}/man1/%{name}.1*
-%{_mandir}/*/man1/%{name}.1*
+%doc %{_infodir}/%{name}*.info*
+%doc %{_mandir}/man1/%{name}.1*
+%doc %{_mandir}/*/man1/%{name}.1*
