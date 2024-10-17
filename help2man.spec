@@ -4,7 +4,7 @@ Version:	1.49.3
 Release:	2
 Group:		Development/Other
 License:	GPLv3
-Url:		http://www.gnu.org/software/help2man/
+Url:		https://www.gnu.org/software/help2man/
 Source0:	https://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.xz
 BuildRequires:	perl-Locale-gettext
 
