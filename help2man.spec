@@ -6,6 +6,11 @@ Group:		Development/Other
 License:	GPLv3
 Url:		https://www.gnu.org/software/help2man/
 Source0:	https://ftp.gnu.org/gnu/help2man/%{name}-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl-Locale-gettext
 
 %description
